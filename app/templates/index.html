@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title> Correlation Chart </title>
+		<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+	</head>
+	<body>
+	<form class="form" action="." method="POST">
+		<h1 class="title">Correlation Chart Computation</a></h1>
+		<p class="ticker"><strong>Period</strong></p> 
+		<table>
+			<tr>
+				<td><p class="ticker">Start Date :</p> </td>
+				<td><input type="text" class="date" name="sd" placeholder="Day" maxlength="2" /></td>
+				<td><input type="text" class="date" name="sm" placeholder="Month" maxlength="2" /></td>
+				<td><input type="text" class="date" name="sy" placeholder="Year" maxlength="4" /></td>
+			</tr>
+			<tr>
+				<td><p class="ticker">End Date :</p> </td>
+				<td><input type="text" class="date" name="ed" placeholder="Day" maxlength="2" /></td>
+				<td><input type="text" class="date" name="em" placeholder="Month" maxlength="2" /></td>
+				<td><input type="text" class="date" name="ey" placeholder="Year" maxlength="4" /></td>
+			</tr>
+			<tr>
+				<td><p class="ticker">Rolling Period :</p> </td>
+				<td><input type="text" class="date" name="window" value="30" maxlength="3" /></td>
+				<td><p class="ticker">Days</p> </td>
+			</tr>
+		</table>	
+		<br>
+		<p class="ticker"><strong>Enter the first Stock Ticker</strong></p>  
+		<input type="text" class="text" name="ticker1" placeholder="Ticker 1" />
+		<p class="ticker"><strong>Enter the second Stock Ticker</strong></p>  
+		<input type="text" class="text" name="ticker2" placeholder="Ticker 2" />
+		<br>
+		<br>
+		<br>
+		<input type="submit" class="btn_2" name="my-form" value="Go">
+		<br>
+		<br>
+		<br>
+		
+	</form>
+	<p style="margin-top:-35px;text-align:center;color:#aaa;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;">By <a style="text-decoration:none;color:#aaa;" >S&eacutebastien Tiess&eacute 2015</a></p>
+	</body>
+</html>
+</html>

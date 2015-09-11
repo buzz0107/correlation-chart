@@ -1,0 +1,107 @@
+
+body {
+  font: 13px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #404040;
+  background: #EEEEEE;
+}
+
+
+.text {
+	position: relative;
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: 3px 1px 1px;
+	width: 200px;
+	margin: 20px auto;
+	text-align: center;
+	margin-left: 60px;
+}
+
+.text:focus {
+    border: 1px solid #07c;
+    box-shadow: 0 0 5px #07c;
+    outline: none;
+}
+
+.date {
+	position: relative;
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: 3px 1px 1px;
+	width: 50px;
+	margin: 10px auto;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.date:focus {
+    border: 1px solid #07c;
+    box-shadow: 0 0 5px #07c;
+    outline: none;
+}
+.form {
+  position: relative;
+  margin: 50px auto;
+  width: 800px;
+  padding: 33px 25px 1px;
+  background: white;
+  border-bottom: 1px solid #c4c4c4;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+.title {
+  margin: -25px -25px 25px;
+  padding: 15px 25px;
+  line-height: 35px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #aaa;
+  text-align: center;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.75);
+  background: #f7f7f7;
+}
+.title:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: #c4e17f url('http://seb.tiesse.free.fr/source/banner.png');
+  background-repeat: repeat-x;
+  background-size:400px 7px;
+  border-radius: 5px 5px 0 0;
+  
+ }
+ 
+.ticker{
+  line-height: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration:none;
+  color: #aaa;
+  text-align: center;
+  padding: 30px;
+  line-height: 200%;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.75);
+}
+
+
+
+.btn_2{
+position: relative;
+  padding:10px 10px 10px 10px;
+  color:#aaa;
+  font-weight:700;
+  font-size:15px;
+  height:40px;
+  width:100px;
+  margin-left: 110px;
+
+}
+
+
+
